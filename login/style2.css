@@ -1,0 +1,26 @@
+#error_msg{
+
+  width: auto;
+  margin-top: 700px;
+  height: 50px;
+  border: 1px solid #ff0000;
+  border-radius: 10px;
+  background: #ffb9b8;
+  color: #000;
+  text-align: center;
+  padding-top: 10px;
+}
+
+#error_smsg{
+
+  width: 100%;
+  margin: auto;
+  height: 50px;
+  border: 1px solid #ff0000;
+  border-radius: 10px;
+  background: #99ff00;
+  color: #000;
+  text-align: center;
+  padding-top: 10px;
+}
+

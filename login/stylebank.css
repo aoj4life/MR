@@ -1,0 +1,147 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+table
+{
+ max-width:auto;
+ font-family:Tahoma, Geneva, sans-serif;
+ font-weight:bolder;
+ margin-bottom:40px;
+ margin-left: 10px;
+ background-color:#F5FAC3;
+}
+
+table tr:hover {
+	background-color: #FAE896;
+}
+
+table tr a{
+
+	background-color: #;
+}
+table th 
+{
+ text-decoration:none;
+ color:#01010A;
+ background-color: #F5BB3D;
+ padding: 2px;
+}
+table,td,th
+{
+ border-collapse:collapse;
+ border:solid #d0d0d0 1px;
+ padding:2px;
+ text-align: left;
+}
+table td input
+{
+ max-width: auto;
+ max-height:auto;
+ border:dashed #00a2d1 1px;
+ padding-left:15px;
+ font-family:Verdana, Geneva, sans-serif;
+ box-shadow:0px 0px 0px rgba(1,0,0,0.2);
+ outline:none;
+}
+table td input:focus
+{
+ box-shadow:inset 1px 1px 1px rgba(1,0,0,0.2);
+ outline:none;
+}
+
+
+table td button
+{
+ border:solid #f9f9f9 0px;
+ box-shadow:1px 1px 1px rgba(1,0,0,0.2);
+ outline:none;
+ background:#00a2d1;
+ padding:9px 15px 9px 15px;
+ color:#f9f9f9;
+ font-family:Arial, Helvetica, sans-serif;
+ font-weight:bolder;
+ border-radius:3px;
+ width:49.5%;
+}
+table td button:active
+{
+ position:relative;
+ top:1px;
+}
+
+
+div.pagination {
+	padding: 3px;
+	margin: 3px;
+}
+
+div.pagination a {
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+	border: 1px solid #AAAADD;
+	
+	text-decoration: none; /* no underline */
+	color: #000099;
+}
+div.pagination a:hover, div.pagination a:active {
+	border: 1px solid #000099;
+
+	color: #000;
+}
+div.pagination span.current {
+	padding: 2px 5px 2px 5px;
+	margin: 2px;
+		border: 1px solid #000099;
+		
+		font-weight: bold;
+		background-color: #000099;
+		color: #FFF;
+	}
+	div.pagination span.disabled {
+		padding: 2px 5px 2px 5px;
+		margin: 2px;
+		border: 1px solid #EEE;
+	
+		color: #DDD;
+	}
+	
+	 .example-modal .modal {
+      position: relative;
+      top: auto;
+      bottom: auto;
+      right: auto;
+      left: auto;
+      display: block;
+      z-index: 1;
+    }
+
+    .example-modal .modal {
+      background: transparent !important;
+    }
+
+  #error_msg{
+
+  width: auto;
+  margin-top: 700px;
+  height: 50px;
+  border: 1px solid #ff0000;
+  border-radius: 10px;
+  background: #ffb9b8;
+  color: #000;
+  text-align: center;
+  padding-top: 10px;
+}
+
+#error_smsg{
+
+  width: 100%;
+  margin: auto;
+  height: 50px;
+  border: 1px solid #ff0000;
+  border-radius: 10px;
+  background: #99ff00;
+  color: #000;
+  text-align: center;
+  padding-top: 10px;
+}

@@ -1,0 +1,58 @@
+#frmForgot { 
+	padding: 20px 60px;
+	background: #B6FFDA;
+	color: #A5A355;
+	display: inline-block;		
+	border-radius: 4px;
+	margin: 100px;
+}
+#frmReset { 
+	padding: 20px 60px;
+	background: #B6E1FF;
+	color: #A5A355;
+	display: inline-block;		
+	border-radius: 4px;
+}
+
+.field-group {
+	margin-top:15px;
+}
+.input-field {
+	padding: 8px;
+	width: 200px;
+	border: #A3C3E7 1px solid;
+	border-radius: 4px;
+}
+.form-submit-button {
+	background: #13BED0;
+	border: 0;
+	padding: 8px 20px;
+	border-radius: 4px;
+	color: #FFF;
+	text-transform: uppercase;
+}
+#error_msg{
+
+  width: 100%;
+  margin-top: 700px;
+  height: 50px;
+  border: 1px solid #ff0000;
+  border-radius: 10px;
+  background: #ffb9b8;
+  color: #000;
+  text-align: center;
+  padding-top: 10px;
+}
+
+#error_smsg{
+
+  width: 100%;
+  margin: auto;
+  height: 50px;
+  border: 1px solid #ff0000;
+  border-radius: 10px;
+  background: #99ff00;
+  color: #000;
+  text-align: center;
+  padding-top: 10px;
+}

@@ -1,0 +1,3 @@
+RewriteEngine on
+
+RewriteRule ^Welcome?$ Fund/index.php
